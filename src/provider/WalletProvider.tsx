@@ -54,7 +54,7 @@ const App: FC<PropsWithChildren<any>> = ({ children }) => {
         })
       )
     } catch (e) {
-      // console.error('WalletConnect error', e)
+      console.log('WalletConnectWalletAdapter error', e)
     }
     return connectWallet
   }, [network])
